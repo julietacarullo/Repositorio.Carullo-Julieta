@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(0, 69, 124);
+    font-weight: 900;
+    margin-bottom: 10px 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2.3rem;
+}
+
+p {
+    color: rgb(0, 69, 124);
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: left;
+}
+
+.botonera{
+    background-color: rgba(0, 69, 124, 0.9);
+}
+    .botonera img{
+        width: 150px;
+    }
+    
+    .botonera li a{
+        color: white;
+    }
+
+
+nav {
+    display: flex;
+    background-color: rgba(0, 69, 124, 0.9);
+    height:auto;
+    position:sticky;
+    width:100%;
+    left:0;
+    top:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /*display: inline-block;*/
+    display: flex;
+}
+
+nav ul li {
+    font-size: 1.8rem;
+    /*display: inline-block;*/
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px 5px;
+    height: auto;
+}
+
+nav ul li a:hover {
+    color: rgb(70, 149, 215);
+    text-decoration: underline
+}
+
+nav img {
+    width: 100px;
+    margin: 2px 15px;
+}
+
+
+body {
+    background-attachment: fixed;
+}
+
+.contenedor {
+    background-color: rgba(0, 76, 241, 0.308);
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding: 50px 30px;
+    border: solid 3px rgb(0, 69, 124);
+}
+header{
+    grid-row: 2;
+}
+header img {
+    display: flex;
+    width: 100%;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+footer {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 5px;
+    background-color: rgb(0, 69, 124);
+
+}
+
+footer svg{
+    width: 20px;
+    fill: white;
+    justify-items: end;
+}
+
+.pfooter{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-;
+    color: white;
+}
+
+.ee {
+    color: white;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (20vh);
+    grid-template-areas: 
+    "nav"
+    "head"
+    "main" 
+    "footer"   
+} 
+
+.nav{
+    grid-area: nav;
+}
+.head{
+    grid-area: head;
+    clear: both;
+}
+.one{
+    grid-area: section I;
+    display: grid;
+}
+
+.two{
+    grid-area: section II;
+}
+
+.three{
+    grid-area: section III;
+}
+
+.four{
+    grid-area: section IV;
+}
+
+.five{
+    grid-area: section V;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.servicio figure {
+    width: 30%;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px 15px;
+
+}
+
+.servicio figcaption {
+    color: rgba(0, 76, 241);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    ;
+}
+
+.servicio img {
+    width: 75%;
+}
+
+.servicio figure p {
+    font-size: 1.5rem;
+    color: rgba(0, 76, 241, 0.5)
+}
+
+.bg-grey{
+    background-color:rgb(154, 182, 204);
+}
+
