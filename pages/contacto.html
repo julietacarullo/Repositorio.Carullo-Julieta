@@ -9,8 +9,8 @@
   </head>
 <body>
     <nav class="navbar navbar-expand-lg botonera sticky-top botonera">
-        <div class="container-fluid"></div>
-            <a class="navbar-brand text-right" href="../indexayres.html" target="_self">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../indexayres.html" target="_self">
                 <img src="../img/logob1.svg" alt="Logo de Ayres de Pilar">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +27,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/residentes.html" target="_blank" >Residentes</a></li>
                 </ul>
-        </nav>
+        </div>
+    </nav>
      <header>
         <img src="../img/header-homewp.webp" alt="foto aerea del barrio Ayres de Pilar">
     </header>
+    
+
 
 <main>
         <section>
@@ -38,33 +41,41 @@
         </section>
         
         <section class="py-3 bg-grey">
-            <div class="row">
-                <div class="container-fluid">
-                    <form class="col-sm-20 col-md-20 col-lg-3" action="envio.php"> 
-                        <div class="mb-6">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                            <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Romina">
-                          </div>
-                          <div class="mb-6">
-                            <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                            <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="Perez">
-                          </div>
-                          <div class="mb-6">
-                            <label for="exampleFormControlInput1" class="form-label">Tel/ Cel</label>
-                            <input type="telefono" class="form-control" id="exampleFormControlInput1" placeholder="01123456466">
-                          </div>
-                          <div class="mb-6">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="rominaperez@gmail.com">
-                          </div>
-                          <div class="mb-6">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
+            <div class="container-fluid">
+                <div class="row">
+                        <form class="col-sm-12 col-md-4 col-lg-6" action="envio.php"> 
+                            <div class="mb-6">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Romina">
+                            </div>
+                            <div class="mb-6">
+                                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                                <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="Perez">
+                            </div>
+                            <div class="mb-6">
+                                <label for="exampleFormControlInput1" class="form-label">Tel/ Cel</label>
+                                <input type="telefono" class="form-control" id="exampleFormControlInput1" placeholder="01123456466">
+                            </div>
+                            <div class="mb-6">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="rominaperez@gmail.com">
+                            </div>
+                            <div class="mb-6">
+                                <label for="exampleFormControlTextarea1" class="form-label">Consultas Adicionales</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div>
+                                
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark">Enviar</button>
                         </form>
-                            <div class= "col-sm-5 col-md-5.col-lg-5">
-                        <img src="../img/afuera (1).jpg" alt="foto area" class="w-40 img-thumbnail">
-                        </div>
+                           
+                                <div class= "col-sm-12 col-md-4 col-lg-4">
+                            <img src="../img/afuera (1).jpg" alt="foto area" class="rounded float-right w-40 img-thumbnail">
+                            </div>
+                            
+                       
+                    </div>
                 </div>
             </div>
         </section>
