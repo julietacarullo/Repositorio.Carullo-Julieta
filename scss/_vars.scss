@@ -1,0 +1,28 @@
+//variables globales
+
+//colors
+$mainColor: rgb(0, 69, 124);
+$secondaryColor:white;
+$keyColor: black;
+
+//fonts
+$mainFont:'Poppins', sans-serif;
+
+//sizing
+$textSm:2em;
+$textMd:2.5em;
+$textLg:3em;
+$textXl:4em;
+
+//font weight
+$fontLight:100;
+$fontBold:900;
+$fontRegular:300;
+
+
+p {
+font-family: $mainFont;
+color: $mainColor;
+}
+
+

@@ -1,0 +1,20 @@
+//nesting
+
+.botonera{
+    background-color: $mainColor;
+    ul{
+        li{
+            margin-left: 5px;
+            a{
+                color: $secondaryColor;
+                font-size: $textMd;
+                &:hover{
+                    color: $secondaryColor;
+                }
+            }
+        }
+    }
+    img{
+        width: 150px;
+    }
+}

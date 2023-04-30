@@ -1,3 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 69, 124);
+}
 
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(0, 69, 124);
+  font-weight: 900;
+  margin-bottom: 10px 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2.3rem;
+}
+
+p {
+  color: rgb(0, 69, 124);
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: left;
+}
+
+.botonera {
+  background-color: rgb(0, 69, 124);
+}
+.botonera ul li {
+  margin-left: 5px;
+}
+.botonera ul li a {
+  color: white;
+  font-size: 2.5em;
+}
+.botonera ul li a:hover {
+  color: white;
+}
+.botonera img {
+  width: 150px;
+}
 
 /*# sourceMappingURL=main.css.map */
