@@ -4,6 +4,11 @@ p {
   color: rgb(0, 69, 124);
 }
 
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
