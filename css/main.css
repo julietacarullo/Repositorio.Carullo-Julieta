@@ -4,51 +4,6 @@ p {
   color: rgb(0, 69, 124);
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: rgb(0, 69, 124);
-  font-weight: 900;
-  margin-bottom: 10px 0;
-}
-
-h1 {
-  font-size: 4em;
-}
-
-h2 {
-  font-size: 3em;
-}
-
-h3 {
-  font-size: 2.5em;
-}
-
-h4 {
-  font-size: 2.3rem;
-}
-
-p {
-  color: rgb(0, 69, 124);
-  font-weight: 300;
-  font-size: 2em;
-  line-height: 2.5em;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: left;
-}
-
 .botonera {
   background-color: rgb(0, 69, 124);
 }
@@ -57,10 +12,11 @@ p {
 }
 .botonera ul li a {
   color: white;
+  margin-left: 5px;
   font-size: 2.5em;
 }
 .botonera ul li a:hover {
-  color: white;
+  color: rgb(0, 69, 124);
 }
 .botonera img {
   width: 150px;
