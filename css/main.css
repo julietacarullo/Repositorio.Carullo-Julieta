@@ -4,6 +4,56 @@ p {
   color: rgb(0, 69, 124);
 }
 
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(0, 69, 124);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2.3rem;
+}
+
+p {
+  color: rgb(0, 69, 124);
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 1em;
+}
+
 .botonera {
   background-color: rgb(0, 69, 124);
 }
@@ -15,7 +65,7 @@ p {
 .botonera ul li a {
   color: white;
   margin-left: 5px;
-  font-size: 2em;
+  font-size: 1em;
   justify-content: space-between;
   align-items: center;
 }
@@ -24,6 +74,59 @@ p {
 }
 .botonera img {
   width: 150px;
+}
+
+.servicio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 30px;
+  text-align: center;
+}
+.servicio figure {
+  width: 30%;
+  border-radius: 5px;
+  margin: 20px 0px;
+  padding: 10px 15px;
+}
+.servicio figure p {
+  font-size: 1.5 em;
+  line-height: 1.2rem;
+  margin: 20px 0;
+  text-align: left;
+  color: rgb(0, 69, 124);
+}
+.servicio figure img {
+  width: 75%;
+}
+.servicio figure figcaption {
+  color: rgb(0, 69, 124);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  font-size: 5px;
+  background-color: rgb(0, 69, 124);
+}
+
+footer svg {
+  width: 20px;
+  fill: white;
+  justify-items: end;
+}
+
+.pfooter {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

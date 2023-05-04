@@ -1,0 +1,31 @@
+//serivicios
+.servicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+    text-align: center;
+        figure{
+            width: 30%;
+            border-radius: 5px;
+            margin: 20px 0px;
+            padding: 10px 15px;
+            p{ 
+                font-size: 1.5 em;
+                line-height: 1.2rem;
+                margin: 20px 0;
+                text-align: left;
+                color: $mainColor;
+            }
+            img{
+                width: 75%;
+            }
+            figcaption{
+                color: $mainColor;
+                font-size: 1.5em;
+                margin-bottom: 10px;
+
+            }  
+        }
+    }

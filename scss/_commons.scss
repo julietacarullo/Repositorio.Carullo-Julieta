@@ -1,0 +1,50 @@
+*{
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3, 
+h4 {
+     color: $mainColor;
+     font-weight: $fontBold;
+     margin-bottom: 20px;
+    }
+
+h1 {
+    font-size: $textSm;
+}
+
+h2 {
+    font-size: $textLg;
+}
+
+h3 {
+    font-size: $textMd;
+}
+
+h4 {
+    font-size: 2.3rem;
+}
+
+p {
+    color: $mainColor;
+    font-weight: $fontRegular;
+    font-size: $textSm;
+    line-height: $textSm;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+    font-size: $textSm;
+}
