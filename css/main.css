@@ -9,14 +9,18 @@ p {
 }
 .botonera ul li {
   margin-left: 5px;
+  display: flex;
+  flex-direction: row;
 }
 .botonera ul li a {
   color: white;
   margin-left: 5px;
-  font-size: 2.5em;
+  font-size: 2em;
+  justify-content: space-between;
+  align-items: center;
 }
 .botonera ul li a:hover {
-  color: rgb(0, 69, 124);
+  color: grey;
 }
 .botonera img {
   width: 150px;
