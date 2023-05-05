@@ -9,26 +9,25 @@ h3,
 h4 {
      color: $mainColor;
      font-weight: $fontBold;
+     text-transform: inherit;
      
     }
-
-.h1 {
+    .h1 {
     font-size: $textLg;
     color: $mainColor;
     margin-bottom: 20px;
-}
-
-.h2 {
+    }
+    .h2 {
     font-size: $textLg;
-}
+    }
 
-.h3 {
+    .h3 {
     font-size: $textMd;
-}
+    }
 
-.h4 {
+    .h4 {
     font-size: 2.3rem;
-}
+    }
 
 p {
     color: $mainColor;
@@ -59,14 +58,22 @@ p {
     overflow-y: auto;
 
 }
-  
+
 .bg-primary{
     color: $secondaryColor;
-    background-color: rgb(1, 39, 70);
+    background-color: #052c65;
+    .h1, h1 {
+        font-size: 25px;}
+
+    .counter-box [class^=col-] {
+        padding: 15px 15px;
+        border-right: 1px solid rgba(255, 255, 255, 0.1); }
+            .counter-box [class^=col-]:last-child {
+              border-right: 0px; }
+     
 }
 
-.counter-box{
-    padding: 15px 15px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1); }
-    .counter-box [class^=col-]:last-child {
-        border-right: 0px; }
+
+  
+
+
