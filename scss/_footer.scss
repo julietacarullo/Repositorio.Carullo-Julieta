@@ -1,22 +1,27 @@
 footer {
-    padding: 30px 20px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    font-size: 5px;
-    background-color: rgb(0, 69, 124);
-    footer svg{
-        width: 20px;
-        fill: white;
+    padding: 20px 30px;
+    justify-content: space-between;
+    font-size: 7px;
+    background-color: $mainColor;
+    svg{
+        width: 30px;
+        justify-content: space-around;
+        fill: $secondaryColor;
         justify-items: end;
-        .pfooter{
-            display: flex;
-            justify-content: flex-start;
-            justify-content: space-;
-            color: white;
-        }
+        flex-direction: column;
+        height: 35px;
+    }   
+    p{
+        color: $secondaryColor;
+        font-size: $textMd;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
     }
+    
 }
 
 
