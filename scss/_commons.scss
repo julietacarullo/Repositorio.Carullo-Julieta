@@ -48,3 +48,12 @@ p {
     font-style: italic;
     font-size: $textSm;
 }
+
+.contenendor{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 50px;
+    overflow-y: auto;
+
+}

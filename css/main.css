@@ -2,6 +2,7 @@
 p {
   font-family: "Poppins", sans-serif;
   color: rgb(0, 69, 124);
+  text-align: center;
 }
 
 * {
@@ -52,6 +53,14 @@ p {
 .italic {
   font-style: italic;
   font-size: 1em;
+}
+
+.contenendor {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px 50px;
+  overflow-y: auto;
 }
 
 .botonera {
@@ -115,14 +124,12 @@ footer {
   font-size: 5px;
   background-color: rgb(0, 69, 124);
 }
-
-footer svg {
+footer footer svg {
   width: 20px;
   fill: white;
   justify-items: end;
 }
-
-.pfooter {
+footer footer svg .pfooter {
   display: flex;
   justify-content: flex-start;
   justify-content: space-;
