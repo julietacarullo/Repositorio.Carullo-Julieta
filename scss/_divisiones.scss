@@ -1,0 +1,47 @@
+.principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (20vh);
+    grid-template-areas: 
+        "nav"
+        "head"
+        "main"
+        "footer";
+}
+.divisiones{
+    .one{
+        grid-area: section I;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: $thirdColor;
+    }
+    .two{
+        grid-area: section II;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .three{
+        grid-area: section III;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .four{
+        grid-area: section IV;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .five{
+        grid-area: section V;
+    }
+    
+}
+
+
+
+
+
+

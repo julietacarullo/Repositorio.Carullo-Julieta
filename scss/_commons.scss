@@ -9,22 +9,24 @@ h3,
 h4 {
      color: $mainColor;
      font-weight: $fontBold;
-     margin-bottom: 20px;
+     
     }
 
-h1 {
-    font-size: $textSm;
+.h1 {
+    font-size: $textLg;
+    color: $mainColor;
+    margin-bottom: 20px;
 }
 
-h2 {
+.h2 {
     font-size: $textLg;
 }
 
-h3 {
+.h3 {
     font-size: $textMd;
 }
 
-h4 {
+.h4 {
     font-size: 2.3rem;
 }
 
@@ -57,3 +59,6 @@ p {
     overflow-y: auto;
 
 }
+
+
+  

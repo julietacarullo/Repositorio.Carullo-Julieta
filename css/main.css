@@ -16,22 +16,23 @@ h3,
 h4 {
   color: rgb(0, 69, 124);
   font-weight: 900;
+}
+
+.h1 {
+  font-size: 3em;
+  color: rgb(0, 69, 124);
   margin-bottom: 20px;
 }
 
-h1 {
-  font-size: 1em;
-}
-
-h2 {
+.h2 {
   font-size: 3em;
 }
 
-h3 {
+.h3 {
   font-size: 2.5em;
 }
 
-h4 {
+.h4 {
   font-size: 2.3rem;
 }
 
@@ -65,6 +66,7 @@ p {
 
 .botonera {
   background-color: rgb(0, 69, 124);
+  fill: white;
 }
 .botonera ul li {
   margin-left: 5px;
@@ -83,6 +85,47 @@ p {
 }
 .botonera img {
   width: 150px;
+}
+@media (width < 320px) {
+  .botonera img {
+    width: 100px;
+  }
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat 20vh;
+  grid-template-areas: "nav" "head" "main" "footer";
+}
+
+.divisiones .one {
+  grid-area: section I;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(187, 212, 233);
+}
+.divisiones .two {
+  grid-area: section II;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.divisiones .three {
+  grid-area: section III;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.divisiones .four {
+  grid-area: section IV;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.divisiones .five {
+  grid-area: section V;
 }
 
 .servicio {

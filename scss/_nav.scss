@@ -1,5 +1,6 @@
 .botonera{
     background-color: $mainColor;
+    fill: $secondaryColor;
     ul{
         li{
             margin-left: 5px;
@@ -19,5 +20,8 @@
     }
     img{
         width: 150px;
+        @media (width < 320px){
+            width: 100px;
+        }
     }
 }
