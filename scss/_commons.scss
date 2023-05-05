@@ -59,6 +59,14 @@ p {
     overflow-y: auto;
 
 }
-
-
   
+.bg-primary{
+    color: $secondaryColor;
+    background-color: rgb(1, 39, 70);
+}
+
+.counter-box{
+    padding: 15px 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1); }
+    .counter-box [class^=col-]:last-child {
+        border-right: 0px; }

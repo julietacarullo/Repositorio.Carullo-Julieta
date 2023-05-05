@@ -64,6 +64,20 @@ p {
   overflow-y: auto;
 }
 
+.bg-primary {
+  color: white;
+  background-color: rgb(1, 39, 70);
+}
+
+.counter-box {
+  padding: 15px 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.counter-box [class^=col-]:last-child {
+  border-right: 0px;
+}
+
 .botonera {
   background-color: rgb(0, 69, 124);
   fill: white;
@@ -90,42 +104,6 @@ p {
   .botonera img {
     width: 100px;
   }
-}
-
-.principal {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat 20vh;
-  grid-template-areas: "nav" "head" "main" "footer";
-}
-
-.divisiones .one {
-  grid-area: section I;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: rgb(187, 212, 233);
-}
-.divisiones .two {
-  grid-area: section II;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.divisiones .three {
-  grid-area: section III;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.divisiones .four {
-  grid-area: section IV;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.divisiones .five {
-  grid-area: section V;
 }
 
 .servicio {
