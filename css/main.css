@@ -58,7 +58,7 @@ p {
 }
 
 .contenendor {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 20px auto;
   padding: 10px 50px;
@@ -78,6 +78,12 @@ p {
 }
 .bg-primary .counter-box [class^=col-]:last-child {
   border-right: 0px;
+}
+
+.bg-second {
+  color: grey;
+  background-color: rgba(0, 68, 124, 0.176);
+  width: 100%;
 }
 
 .botonera {
@@ -161,6 +167,10 @@ footer p {
   align-items: center;
   justify-content: center;
   align-self: center;
+}
+
+img-centered {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

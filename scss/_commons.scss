@@ -39,6 +39,7 @@ p {
 
 .text-center {
     text-align: center;
+  
 }
 
 .text-right {
@@ -73,7 +74,10 @@ p {
      
 }
 
-
-  
+.bg-second{
+    color: $keyColor;
+    background-color:rgba(0, 68, 124, 0.176);
+    width: 100%;
+}
 
 
