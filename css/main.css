@@ -84,7 +84,7 @@ p {
   color: grey;
   background-color: rgba(0, 68, 124, 0.297);
   width: 100%;
-  padding: 20px 30px;
+  padding: 20px 10px;
 }
 .bg-second .img-centered {
   margin: 0 auto;
@@ -112,7 +112,7 @@ p {
 .bg-second .bxx {
   box-sizing: border-box;
   border: 2px solid rgba(255, 255, 255, 0.354);
-  padding: 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
