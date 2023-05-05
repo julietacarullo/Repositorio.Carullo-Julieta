@@ -74,10 +74,55 @@ p {
      
 }
 
-.bg-second{
+.bg-second {
     color: $keyColor;
-    background-color:rgba(0, 68, 124, 0.176);
+    background-color: rgba(0, 68, 124, 0.297);
     width: 100%;
-}
+    padding: 20px 30px;
+    .img-centered {
+        margin: 0 auto;
+      }
+    .bx {
+        padding-top: 15px;
+        border-radius: 2px;
+      }
+    .title-divider {
+        border-top: 2px solid #002f87;
+        display: block;
+        max-width: 1rem;
+        margin: 10px auto;
+      }
+    .section-subheading {
+        font-size: 16px;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: none;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 75px;
+        padding: 0 10%;
+        line-height: 1;
+      }
+      .bxx {
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0.354);
+        padding: 20px;
+        text-align: center;
+    
+      }
+
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 
 

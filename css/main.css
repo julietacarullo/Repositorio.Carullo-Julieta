@@ -58,7 +58,7 @@ p {
 }
 
 .contenendor {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 20px auto;
   padding: 10px 50px;
@@ -82,8 +82,38 @@ p {
 
 .bg-second {
   color: grey;
-  background-color: rgba(0, 68, 124, 0.176);
+  background-color: rgba(0, 68, 124, 0.297);
   width: 100%;
+  padding: 20px 30px;
+}
+.bg-second .img-centered {
+  margin: 0 auto;
+}
+.bg-second .bx {
+  padding-top: 15px;
+  border-radius: 2px;
+}
+.bg-second .title-divider {
+  border-top: 2px solid #002f87;
+  display: block;
+  max-width: 1rem;
+  margin: 10px auto;
+}
+.bg-second .section-subheading {
+  font-size: 16px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 75px;
+  padding: 0 10%;
+  line-height: 1;
+}
+.bg-second .bxx {
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.354);
+  padding: 20px;
+  text-align: center;
 }
 
 .botonera {
