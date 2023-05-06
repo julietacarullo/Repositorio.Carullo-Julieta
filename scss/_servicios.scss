@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 10px 30px;
     text-align: center;
+   
         figure{
             width: 30%;
             border-radius: 5px;
@@ -20,6 +21,9 @@
             }
             img{
                 width: 75%;
+                transform: scale(1);
+                transition: all 1s;
+                cursor: pointer;
             }
             figcaption{
                 color: $mainColor;

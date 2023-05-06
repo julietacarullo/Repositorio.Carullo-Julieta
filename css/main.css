@@ -12,22 +12,22 @@
   text-align: left;
 }
 
-.italic {
+.bg-zero {
+  color: rgb(0, 69, 124);
+  background-color: #f2f2f2;
+  width: 100%;
+  height: fit-content;
+  padding: 4px 4px;
+}
+.bg-zero .italic {
   font-style: italic;
   font-size: 1em;
-}
-
-.contenendor {
-  width: 90%;
-  height: auto;
-  margin: 20px auto;
-  padding: 10px 50px;
-  overflow-y: auto;
 }
 
 .bg-primary {
   color: white;
   background-color: #052c65;
+  padding: 4px 4px;
 }
 .bg-primary .h1, .bg-primary h1 {
   font-size: 25px;
@@ -41,14 +41,14 @@
 }
 
 .bg-first {
-  background-color: rgba(43, 117, 177, 0.297);
+  background-color: rgb(212, 225, 235);
   padding: 20px 10px;
 }
 
 .bg-second {
   color: white;
   background-color: rgba(1, 91, 151, 0.486);
-  padding: 20px 10px;
+  padding: 5px 5px;
 }
 .bg-second .img-centered {
   margin: 0 auto;
@@ -65,21 +65,20 @@
   margin: 10px auto;
 }
 .bg-second .section-subheading {
-  font-size: 0, 5em;
+  font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 75px;
-  padding: 0 10%;
+  padding: 20px;
   line-height: 1;
 }
 .bg-second .bxx {
   box-sizing: border-box;
   border: 2px solid rgba(255, 255, 255, 0.354);
-  padding: 20px 20px;
+  padding: 40px 40px;
   text-align: center;
-  font-size: 0, 3em;
+  font-size: 0.8em;
 }
 
 p {
@@ -147,6 +146,9 @@ p {
 }
 .servicio figure img {
   width: 75%;
+  transform: scale(1);
+  transition: all 1s;
+  cursor: pointer;
 }
 .servicio figure figcaption {
   color: rgb(0, 69, 124);
