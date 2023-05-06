@@ -1,15 +1,15 @@
 //serivicios
 .servicio{
+    padding: 0 30px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 30px;
-    text-align: center;
-   
         figure{
             width: 30%;
-            border-radius: 5px;
-            margin: 20px 0px;
-            padding: 10px 15px;
+            border-radius: 4px;
+            border: solid gray 1px;
+            margin-bottom: 20px;
             p{ 
                 font-size: 1.5 em;
                 line-height: 1.2rem;
@@ -18,7 +18,7 @@
                 color: $mainColor;
             }
             img{
-                width: 75%;
+                width: 100%;
             }
             figcaption{
                 color: $mainColor;
