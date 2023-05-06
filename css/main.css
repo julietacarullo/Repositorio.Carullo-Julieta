@@ -12,6 +12,13 @@
   text-align: left;
 }
 
+.title-divider {
+  border-top: 3px solid rgb(0, 69, 124);
+  display: block;
+  max-width: 2em;
+  margin: 10px auto;
+}
+
 .bg-zero {
   color: rgb(0, 69, 124);
   background-color: #f2f2f2;
@@ -46,39 +53,44 @@
 }
 
 .bg-second {
-  color: white;
+  color: rgb(0, 69, 124);
   background-color: rgba(1, 91, 151, 0.486);
   padding: 5px 5px;
 }
 .bg-second .img-centered {
   margin: 0 auto;
 }
-.bg-second .bx {
+.bg-second .img-centered .bx {
   padding-top: 15px;
   border-radius: 2px;
-  color: white;
+  color: rgb(0, 69, 124);
+  font-size: 1em;
 }
 .bg-second .title-divider {
-  border-top: 2px solid white;
+  border-top: 2px solid rgb(0, 69, 124);
   display: block;
   max-width: 1rem;
   margin: 10px auto;
+  padding-bottom: 10px;
 }
 .bg-second .section-subheading {
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: normal;
   font-weight: 400;
-  padding: 20px;
   line-height: 1;
 }
 .bg-second .bxx {
   box-sizing: border-box;
-  border: 2px solid rgba(255, 255, 255, 0.354);
-  padding: 40px 40px;
+  border: 3px solid rgba(255, 255, 255, 0.354);
+  padding-top: 15px;
   text-align: center;
   font-size: 0.8em;
+}
+.bg-second .pgrey {
+  color: white;
+  line-height: 20px;
+  padding-bottom: 0%;
 }
 
 p {
@@ -125,8 +137,6 @@ p {
 
 .servicio {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px 30px;
   text-align: center;
@@ -140,20 +150,148 @@ p {
 .servicio figure p {
   font-size: 1.5 em;
   line-height: 1.2rem;
-  margin: 20px 0;
-  text-align: left;
+  margin: 20px 20px;
+  text-align: center;
   color: rgb(0, 69, 124);
 }
 .servicio figure img {
   width: 75%;
-  transform: scale(1);
-  transition: all 1s;
-  cursor: pointer;
 }
 .servicio figure figcaption {
   color: rgb(0, 69, 124);
   font-size: 1.5em;
   margin-bottom: 10px;
+}
+
+.hover-img {
+  transform: scale(1);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+@keyframes animateimg {}
+.tienda .filters {
+  padding: 0 20px 30px 30px;
+}
+.tienda .filters a {
+  color: rgb(134, 130, 132);
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-bottom: 4px;
+  text-transform: lowercase;
+}
+.tienda .filters a:hover {
+  color: rgb(0, 69, 124);
+}
+.tienda .filters span {
+  display: block;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+.tienda .filters select {
+  color: deeppink;
+  border: none;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+.tienda .filters li {
+  padding-left: 10px;
+  list-style: none;
+}
+.tienda .actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.tienda .actions button {
+  margin-left: 10px;
+  background-color: deeppink;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 3px;
+}
+.tienda .actions input {
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(243, 245, 245);
+}
+
+.tienda {
+  /* 
+  - creamos nuestro grid de 3 cols 20% - 1fr - 1fr y 4 rows 80px - 3 x 300px 
+  - difinimos las areas
+  - setteamos el gap en 5px
+  */
+  display: grid;
+  grid-template-columns: 20% repeat(2, 1fr);
+  grid-template-rows: 80px repeat(3, 300px);
+  grid-template-areas: "actions actions actions" "filters uno uno" "filters dos tres" "filters dos cuatro";
+  gap: 5px;
+}
+
+.tienda section {
+  border-radius: 10px;
+}
+
+.tienda .actions {
+  /* background-color: rgb(244, 241, 241);  */
+  padding: 0 30px;
+  /*definimos el nombre en el grid */
+  grid-area: actions;
+}
+
+.tienda .filters {
+  /*definimos el nombre en el grid */
+  grid-area: filters;
+}
+
+.tienda .prod1 {
+  /*
+  - definimos el nombre en el grid
+  - usamos flex para acomodar 
+  */
+  grid-area: uno;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tienda .prod2 {
+  /*
+  - definimos el nombre en el grid
+  - usamos flex para acomodar 
+  */
+  grid-area: dos;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tienda .prod3 {
+  /*
+  - definimos el nombre en el grid
+  - usamos flex para acomodar 
+  */
+  grid-area: tres;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tienda .prod4 {
+  /*
+  - definimos el nombre en el grid
+  - usamos flex para acomodar 
+  */
+  grid-area: cuatro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
