@@ -3,40 +3,6 @@
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3, 
-h4 {
-     color: $mainColor;
-     font-weight: $fontBold;
-     text-transform: inherit;
-     
-    }
-    .h1 {
-    font-size: $textLg;
-    color: $mainColor;
-    margin-bottom: 20px;
-    }
-    .h2 {
-    font-size: $textLg;
-    }
-
-    .h3 {
-    font-size: $textMd;
-    }
-
-    .h4 {
-    font-size: 2.3rem;
-    }
-
-p {
-    color: $mainColor;
-    font-weight: $fontRegular;
-    font-size: $textSm;
-    line-height: $textSm;
-}
-
-
 .text-center {
     text-align: center;
   
@@ -60,6 +26,7 @@ p {
 
 }
 
+
 .bg-primary{
     color: $secondaryColor;
     background-color: #052c65;
@@ -68,32 +35,35 @@ p {
 
     .counter-box [class^=col-] {
         padding: 15px 15px;
-        border-right: 1px solid rgba(255, 255, 255, 0.1); }
+        border-right: 4px solid rgba(255, 255, 255, 0.7); }
             .counter-box [class^=col-]:last-child {
-              border-right: 0px; }
-     
+            border-right: 0px; }}
+    
+.bg-first{
+    background-color: rgba(43, 117, 177, 0.297);
+    padding:20px 10px;
 }
 
 .bg-second {
-    color: $keyColor;
-    background-color: rgba(0, 68, 124, 0.297);
-    width: 100%;
+    color: $secondaryColor;
+    background-color:rgba(1, 91, 151, 0.486);
     padding: 20px 10px;
     .img-centered {
         margin: 0 auto;
-      }
+    }
     .bx {
         padding-top: 15px;
         border-radius: 2px;
-      }
+        color: $secondaryColor;
+    }
     .title-divider {
-        border-top: 2px solid #002f87;
+        border-top: 2px solid $secondaryColor;
         display: block;
         max-width: 1rem;
         margin: 10px auto;
-      }
+    }
     .section-subheading {
-        font-size: 16px;
+        font-size: 0,5em;
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: none;
         font-style: normal;
@@ -101,24 +71,27 @@ p {
         margin-bottom: 75px;
         padding: 0 10%;
         line-height: 1;
-      }
-      .bxx {
+    }
+    .bxx {
         box-sizing: border-box;
         border: 2px solid rgba(255, 255, 255, 0.354);
         padding: 20px 20px;
         text-align: center;
+        font-size: 0,3em;
     
-      }
+    }
 
 
-  }
-  
-  
-  
-  
-  
-  
-  
+}
+            
+
+
+        
+        
+        
+        
+        
+        
   
   
   

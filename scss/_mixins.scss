@@ -1,0 +1,31 @@
+@mixin textos ($size, $padding, $color, $align){
+    //variable global
+    font-family: $mainFont;
+    //variables locales
+    font-size: $size;
+    padding: $padding;
+    color: $mainColor;
+    line-height: $textSm;
+    @if $align ==center {text-align: center}
+    @else if $align ==right {text-align: right}
+    box-sizing: border-box;
+}
+
+p{
+    @include textos(1.1em, 10px, rgb (0, 69, $mainColor), center)
+    //3 parametros: 1 es para el font size, 2 es para padding, 3 COLOR
+}
+
+//paleta
+$paleta:(
+    'uno':rgb(0, 69, 124),
+    'dos': white,
+    'tres': rgb(212, 225, 235),
+    'cuatro': grey,
+    'cinco':#002f87
+);
+
+.bg-blue{
+    background-color: map-get($map: $paleta, $key: 'uno');
+}
+
