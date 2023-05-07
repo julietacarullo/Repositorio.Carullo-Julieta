@@ -12,20 +12,35 @@
 }
 
 p{
-    @include textos(1.1em, 10px, rgb (0, 69, $mainColor), center)
+    @include textos(1.1em, 10px, $mainColor, center)
     //3 parametros: 1 es para el font size, 2 es para padding, 3 COLOR
 }
 
-//paleta
-$paleta:(
-    'uno':rgb(0, 69, 124),
-    'dos': white,
-    'tres': rgb(212, 225, 235),
-    'cuatro': grey,
-    'cinco':#002f87
-);
 
-.bg-blue{
-    background-color: map-get($map: $paleta, $key: 'uno');
+
+@mixin bg-color_text-color($bgcolor, $color){
+    @if $bgcolor == $mainColor {background-color: $mainColor; color:$secondaryColor}
+    @else if $bgcolor == #f2f2f2 {background-color: #f2f2f2 ;color: $mainColor}
+    @else if $bgcolor ==  #052c65 {background-color: #052c65; color: $secondaryColor}
+    @else if $bgcolor == rgba(1, 91, 151, 0.486) {background-color: rgba(1, 91, 151, 0.486);color: $mainColor}
 }
+
+.bg-primary {
+    @include bg-color_text-color(#052c65, $secondaryColor);
+}
+
+.bg-second {
+    @include bg-color_text-color (rgba(1, 91, 151, 0.486), $mainColor);
+}
+
+
+
+
+ 
+
+
+
+
+  
+
 

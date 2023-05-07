@@ -35,8 +35,6 @@
 
 
 .bg-primary{
-    color: $secondaryColor;
-    background-color: #052c65;
     padding: 4px 4px;
     .h1, h1 {
         font-size: 25px;}
@@ -55,7 +53,7 @@
 .bg-second {
     color: $mainColor;
     background-color:rgba(1, 91, 151, 0.486);
-    padding: 5px 5px;
+    padding: 4px 4px;
     .img-centered {
         margin: 0 auto;
         
@@ -84,7 +82,6 @@
         line-height: 1;
     }
     .bxx {
-        box-sizing: border-box;
         border: 3px solid rgba(255, 255, 255, 0.354);
         padding-top: 15px;
         text-align: center;
