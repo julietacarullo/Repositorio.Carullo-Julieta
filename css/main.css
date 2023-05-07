@@ -107,7 +107,7 @@ p {
 }
 
 .botonera {
-  background-color: rgb(0, 69, 124);
+  background-color: rgba(0, 68, 124, 0.959);
   fill: white;
 }
 .botonera ul li {
