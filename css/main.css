@@ -169,6 +169,16 @@ img-centered {
   margin: 0 auto;
 }
 
+.carousel-inner img {
+  width: 70%;
+  max-height: 700px;
+}
+
+.carousel-inner {
+  height: 900px;
+  padding: 30px 30px;
+}
+
 .counter-count {
   border-radius: 50%;
   position: relative;
