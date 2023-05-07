@@ -1,21 +1,24 @@
 //serivicios
 .servicio{
-    padding: 0 30px;
+    padding: 0 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    color: $mainColor;
+    text-align: center;
         article{
             width: 30%;
             border-radius: 4px;
             border: solid gray 1px;
             margin-bottom: 20px;
             p{ 
-                font-size: 1.5 em;
+                font-size: 1 em;
                 line-height: 1.2rem;
                 margin: 20px 20px;
                 text-align: center;
                 color: $mainColor;
+                padding-bottom: 30px;
             }
             img{
                 width: 100%;
