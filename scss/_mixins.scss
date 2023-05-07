@@ -21,17 +21,23 @@ p{
 @mixin bg-color_text-color($bgcolor, $color){
     @if $bgcolor == $mainColor {background-color: $mainColor; color:$secondaryColor}
     @else if $bgcolor == #f2f2f2 {background-color: #f2f2f2 ;color: $mainColor}
+    @else if $bgcolor == $thirdColor {background-color: $thirdColor; color: $mainColor}
     @else if $bgcolor ==  #052c65 {background-color: #052c65; color: $secondaryColor}
     @else if $bgcolor == rgba(1, 91, 151, 0.486) {background-color: rgba(1, 91, 151, 0.486);color: $mainColor}
 }
+.bg-one{
+    @include bg-color_text-color(#f2f2f2, $mainColor)
+}
 
-.bg-primary {
+.bg-two{
     @include bg-color_text-color(#052c65, $secondaryColor);
 }
 
-.bg-second {
-    @include bg-color_text-color (rgba(1, 91, 151, 0.486), $mainColor);
+.bg-three{
+    @include bg-color_text-color ($thirdColor, $mainColor)
 }
+
+
 
 
 
