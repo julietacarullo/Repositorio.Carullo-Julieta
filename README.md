@@ -10,8 +10,8 @@
    
 * Introducción
 * Funcionalidades
-* Tecnologías usadas
-* Autores de proyecto
+* Tecnologías Utilizada
+
 
 
 ## INTRODUCCIÓN
